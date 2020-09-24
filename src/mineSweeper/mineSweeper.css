@@ -1,0 +1,33 @@
+.container {
+    background-color: gray;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div {
+    height: 50px;
+    width: 50px;
+    outline: 1px solid beige;
+    outline-offset: -1px;
+    cursor: pointer;
+}
+
+.bomb {
+    text-align: center;
+    line-height: 50px;
+
+}
+
+.valid {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.checked {
+    background-color: teal;
+    outline: unset !important;
+    cursor: not-allowed !important;
+}
